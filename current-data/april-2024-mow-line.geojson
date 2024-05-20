@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "april-2024-mow-line",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "name": "April 2024 mow line" }, "geometry": { "type": "LineString", "coordinates": [ [ 0.093633610515473, 52.25523402350116 ], [ 0.093638993211882, 52.255352442822158 ], [ 0.093761718690007, 52.255607582631946 ], [ 0.093826311046915, 52.255665715753167 ], [ 0.093831693743324, 52.255775522759912 ], [ 0.093845688753988, 52.255799206624111 ] ] } }
+]
+}

@@ -1,0 +1,23 @@
+{
+"type": "FeatureCollection",
+"name": "sites-set-2",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::27700" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 1, "OS_x": 543095.028, "OS_y": 263949.185, "GPS_lat": 52.255124, "GPS_long": 0.094998 }, "geometry": { "type": "Point", "coordinates": [ 543095.027743821265176, 263949.1852684339392 ] } },
+{ "type": "Feature", "properties": { "id": 2, "OS_x": 543177.953, "OS_y": 263903.445, "GPS_lat": 52.254692, "GPS_long": 0.096192 }, "geometry": { "type": "Point", "coordinates": [ 543177.952693367609754, 263903.444930253433995 ] } },
+{ "type": "Feature", "properties": { "id": 3, "OS_x": 543159.283, "OS_y": 263890.0, "GPS_lat": 52.254576, "GPS_long": 0.095913 }, "geometry": { "type": "Point", "coordinates": [ 543159.283361314563081, 263890.00019521987997 ] } },
+{ "type": "Feature", "properties": { "id": 4, "OS_x": 543186.352, "OS_y": 263886.153, "GPS_lat": 52.254534, "GPS_long": 0.096308 }, "geometry": { "type": "Point", "coordinates": [ 543186.35182212293148, 263886.153060114302207 ] } },
+{ "type": "Feature", "properties": { "id": 5, "OS_x": 543201.75, "OS_y": 263891.729, "GPS_lat": 52.254581, "GPS_long": 0.096536 }, "geometry": { "type": "Point", "coordinates": [ 543201.750333918142132, 263891.729238790634554 ] } },
+{ "type": "Feature", "properties": { "id": 6, "OS_x": 543122.266, "OS_y": 263936.736, "GPS_lat": 52.255006, "GPS_long": 0.095391 }, "geometry": { "type": "Point", "coordinates": [ 543122.265997115871869, 263936.736123890674207 ] } },
+{ "type": "Feature", "properties": { "id": 7, "OS_x": 543090.495, "OS_y": 263925.838, "GPS_lat": 52.254916, "GPS_long": 0.094922 }, "geometry": { "type": "Point", "coordinates": [ 543090.495015121297911, 263925.83796054177219 ] } },
+{ "type": "Feature", "properties": { "id": 8, "OS_x": 543102.965, "OS_y": 263932.497, "GPS_lat": 52.254972, "GPS_long": 0.095107 }, "geometry": { "type": "Point", "coordinates": [ 543102.965133660240099, 263932.496637287549675 ] } },
+{ "type": "Feature", "properties": { "id": 9, "OS_x": 543031.329, "OS_y": 263980.246, "GPS_lat": 52.25542, "GPS_long": 0.094078 }, "geometry": { "type": "Point", "coordinates": [ 543031.329221353982575, 263980.246399259078316 ] } },
+{ "type": "Feature", "properties": { "id": 10, "OS_x": 543051.298, "OS_y": 263949.776, "GPS_lat": 52.255141, "GPS_long": 0.094358 }, "geometry": { "type": "Point", "coordinates": [ 543051.29805140697863, 263949.776378823444247 ] } },
+{ "type": "Feature", "properties": { "id": 11, "OS_x": 543139.801, "OS_y": 263920.478, "GPS_lat": 52.254855, "GPS_long": 0.095641 }, "geometry": { "type": "Point", "coordinates": [ 543139.801246739807539, 263920.477553930599242 ] } },
+{ "type": "Feature", "properties": { "id": 12, "OS_x": 543186.021, "OS_y": 263895.42, "GPS_lat": 52.254618, "GPS_long": 0.096307 }, "geometry": { "type": "Point", "coordinates": [ 543186.020641711889766, 263895.420168316515628 ] } },
+{ "type": "Feature", "properties": { "id": 13, "OS_x": 543033.749, "OS_y": 263993.476, "GPS_lat": 52.255538, "GPS_long": 0.094119 }, "geometry": { "type": "Point", "coordinates": [ 543033.749370385194197, 263993.475901575176977 ] } },
+{ "type": "Feature", "properties": { "id": 14, "OS_x": 543075.251, "OS_y": 263922.931, "GPS_lat": 52.254894, "GPS_long": 0.094697 }, "geometry": { "type": "Point", "coordinates": [ 543075.251271099317819, 263922.930534770712256 ] } },
+{ "type": "Feature", "properties": { "id": 15, "OS_x": 543034.442, "OS_y": 263944.027, "GPS_lat": 52.255094, "GPS_long": 0.094109 }, "geometry": { "type": "Point", "coordinates": [ 543034.441933894762769, 263944.027261364040896 ] } },
+{ "type": "Feature", "properties": { "id": 16, "OS_x": 543147.793, "OS_y": 263895.298, "GPS_lat": 52.254627, "GPS_long": 0.095747 }, "geometry": { "type": "Point", "coordinates": [ 543147.792840257752687, 263895.297891844646074 ] } }
+]
+}

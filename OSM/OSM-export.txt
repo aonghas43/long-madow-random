@@ -1,0 +1,6 @@
+Using OSM export feature for bbox
+https://www.openstreetmap.org/export#map=18/52.25516/0.09502&layers=D
+
+52.25591
+0.09347  0.09676
+52.25431
