@@ -1,0 +1,10 @@
+commem oak:
+52.255550, 0.093874
+
+
+inner path
+bottom-left : 52.255352, 0.093640
+top-right: 52.255665, 0.093823
+beyond top right
+52.255772, 0.093831
+
