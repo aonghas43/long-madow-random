@@ -1,10 +1,11 @@
+DROP table sites;
 CREATE TABLE sites(
-    id integer not null primary key AUTOINCREMENT,
+    id integer not null primary key,
     OS_x double,
     OS_y double,
     GPS_lat double,
-    GPS_long double
-);
+    GPS_long double,
+    w3w text);
 SELECT
  AddGeometryColumn
  (
@@ -26,10 +27,11 @@ UPDATE sites
 SET OS_x=x(geometry), 
 OS_y=y(geometry),
 GPS_Lat=y(ST_Transform(geometry, 4326)),
-GPS_long=x(ST_Transform(geometry, 4326))
-END
+GPS_long=x(ST_Transform(geometry, 4326));
+END;
 
 -- 'sites-input' created by QGIS as set of random points
-INSERT into sites(geometry)
-SELECT geometry from site_input;
+UPDATE 'sites-input' set id = id + 1;
+INSERT into sites(id,geometry)
+SELECT id,geom from 'sites-input';
 

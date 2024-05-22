@@ -52,6 +52,7 @@
 * "Random points within polygon"
 	* 16 points, 9m separation
 * manual adjustment to ensure minimum 3 points in each zone.
+* each set of sites to be in Spatialite database with distinctive name : _sites-1_, _sites-2_, _sites_3_...
 
 Requirement is for 3 sets of points
 
@@ -65,16 +66,24 @@ Requirement is for 3 sets of points
 	* selected? - so printed output can be used as working document
 	* comment - as for "selected?"
 
+* implementation of the above
+	* what.3.words  - put result in csv file keyed by site id, with no header row, columns assmed to be id, w3w
+	* SQL script to create table in spatialite to do all the processing
+	* **spatialite** command-line script to update the table with w3w data
+	* add enhanced sites data table to project, so they can be exported as a set to XLS
+
+
+
 ### QGIS items
 
-* themes
+* themes - base layers plus specific data for selected set of sites
 	* sites-set-1
 	* sites-set-2
 	* sites-set-3
+* Layout 'just-one-map' which is A4 map with legend, scalebar and north arrow.
 
 ## Output
 
-* Layout consisting of one page per set of points. Each page :
-	* map, showing meadow, using theme for each set of points
-	* attribute table
-
+* export spreadsheet from the (3) spatialite layers
+* using the 'just-one-map' layout, generate image output of one mape page, to be included in spreadsheet
+ * add image to associated spreadsheet tab
